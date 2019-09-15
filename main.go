@@ -2,12 +2,10 @@ package main
 
 import (
 	"fmt"
-
 	"leetcode/implement"
 )
 
 func main() {
-	var p = "aa"
-	var s = "a*"
-	fmt.Print(implement.IsMatch(p, s))
+	var a = []int{3, 0, -2, -1, 1, 2}
+	fmt.Print(implement.ThreeSumClosest(a, 10))
 }
